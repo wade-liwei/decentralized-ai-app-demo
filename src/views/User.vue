@@ -39,7 +39,7 @@ import {
 	onMounted
 } from 'vue';
 import { useRouter } from 'vue-router'
-import { Options, User } from '../lib/aonweb/aon-web.es'
+import { Options, User } from 'aonweb'
 import { showToast } from 'vant';
 
 import Header from '../components/Header.vue';

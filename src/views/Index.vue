@@ -57,7 +57,7 @@ import { ref } from 'vue';
 import { showToast } from 'vant';
 import { useRouter } from 'vue-router'
 
-import { AI } from '../lib/aonweb/aon-web.es'
+import { AI } from 'aonweb'
 
 import 'vant/lib/index.css';
 import Header from '../components/Header.vue';
